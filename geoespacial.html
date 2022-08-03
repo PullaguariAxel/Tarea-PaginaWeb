@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GEOESPACIAL</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      body {
+        font-family: "Lato", sans-serif;
+      }
+      .mySlides {
+        display: none;
+      }
+    </style>
+    <link rel="icon" href="img/5.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3- w3-card w3-black">
+        <a
+          href="index.html"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >INICIO</a
+        >
+       
+        <a
+          class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+          href="javascript:void(0)"
+          onclick="myFunction()"
+          title="Toggle Navigation Menu"
+        >
+          <i class="fa fa-bars"></i
+        ></a>
+
+        <div class="w3-dropdown-hover w3-hide-small">
+          <button class="w3-padding-large w3-button" title="More">
+            <a href="#participantes" style="text-decoration:none ;"> PARTICIPANTES </a><i class="fa fa-caret-down"></i>
+          </button>
+          <div class="w3-dropdown-content w3-black w3-bar-block w3-card-4">
+            <a href="#participantes" class="w3-bar-item w3-button"
+              >INVESTIGADORES</a
+            >
+            <a href="#participantes" class="w3-bar-item w3-button"
+              >COLABORADORES</a
+            >
+            <a href="#participantes" class="w3-bar-item w3-button"
+              >ESTUDIANTES</a
+            >
+          </div>
+        </div>
+        <a
+          href="#proyectos"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >PROYECTOS</a
+        >
+        <a
+          href="#contacto"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >CONTACTO</a
+        >
+        <a
+          href="javascript:void(0)"
+          class="w3-padding-large w3-hover-red w3-hide-small w3-right"
+          ><i class="fa fa-search"></i
+        ></a>
+      </div>
+    </div>
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div
+      id="navDemo"
+      class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top"
+      style="margin-top: 46px"
+    >
+      <a
+        href="#info"
+        class="w3-bar-item w3-button w3-padding-large"
+        >INFO</a
+        onclick="myFunction()"
+      >
+      <a
+        href="geoespacial.html"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >CENTROS DE INVESTIGACION</a
+      >
+      <a
+        href="#proyectos"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >PROYECTOS</a
+      >
+      <a
+        href="#contacto"
+        class="w3-bar-item w3-button w3-padding-large"
+        >CONTACTO</a
+        onclick="myFunction()"
+      >
+    </div>
+    
+    <!-- INFO -->
+    <p><img src="img/geo carrousel3.jpg" style="width:1720px; max-height: 250px;"/></p>
+    <div
+      class="w3-container w3-content w3-center w3-padding-64 w3-bar-block"
+      style="max-width: 800px;"
+      id="info"
+    >
+      <h2 class="w3-wide">INFORMACION</h2>
+      <p class="w3-opacity"><i>BIENVENIDO</i></p>
+      <p class="w3-justify">
+        Bienvenidos al sitio web oficial del Centro de Investigación Geoespacial de la 
+        Universidad de las Fuerzas Armadas – ESPE y de la Revista Científica Geoespacial.
+        El objetivo principal del Centro Geoespacial, es la generación de nuevos conocimientos 
+        relacionados con el estudio del Sistema Tierra, mediante la integración de los 
+        conceptos y procesos obtenidos en las diferentes áreas de las geociencias y de las 
+        tecnologías  geoespaciales.Los conocimientos generados y el desarrollo de nuevas 
+        aplicaciones de acuerdo con las condiciones y realidad del territorio, aportarán un 
+        valor agregado a la sociedad ya que a partir de ellos, se establece las bases y el 
+        compromiso para una mejor planificación de sus recursos.
+      </p>
+      
+      <p class="w3-opacity"><i> QUIENES SOMOS</i></p>
+      <p class="w3-justify">
+        El  Centro de Investigación Geoespacial, se dedica a la realización de investigaciones 
+        relacionadas con el Sistema Tierra, a partir de la integración de los conocimientos 
+        de las diferentes áreas de las Geociencias y de las Tecnologías  Geoespaciales.
+      </p>
+    </div>
+    
+        
+    
+
+<!--Participantes-->
+    <div
+      class="w3-container w3-content w3-center w3-padding-64 w3-green w3-padding  "
+      style="max-width: 100%;  "
+      id="participantes"
+    >
+      <div class="w3-row w3-padding-32">
+        <h2 class="w3-wide w3-center">INVESTIGADORES</h2>
+        <div class="w3-third">
+          <p>Name</p>
+          <img
+            src="img/profile.jpg",
+            class="w3-round w3-margin-bottom",
+            alt="Random Name",
+            style="width: 60%",
+           
+          />
+          <p style="color: black">
+            <a href="https://www.espe.edu.ec/">Mail</a>
+          </p>
+        </div>
+        <div class="w3-third">
+          <p>Name</p>
+          <img
+            src="img/profile.jpg"
+            class="w3-round w3-margin-bottom"
+            alt="Random Name"
+            style="width: 60%"
+          />
+          <p style="color: black">
+            <a href="https://www.espe.edu.ec/">Mail</a>
+          </p>
+        </div>
+        <div class="w3-third">
+          <p>Name</p>
+          <img
+            src="img/profile.jpg"
+            class="w3-round"
+            alt="Random Name"
+            style="width: 60%"
+          />
+          <p style="color: black">
+            <a href="https://www.espe.edu.ec/">Mail</a>
+          </p>
+        </div>
+      </div>
+      <div class="w3-row w3-padding-32">
+        <h2 class="w3-wide w3-center">COLABORADORES</h2>
+        <div class="w3-third">
+          <p>Name</p>
+          <img
+            src="img/profile.jpg",
+            class="w3-round w3-margin-bottom",
+            alt="Random Name",
+            style="width: 60%",
+           
+          />
+          <p style="color: black">
+            <a href="https://www.espe.edu.ec/">Mail</a>
+          </p>
+        </div>
+        <div class="w3-third">
+          <p>Name</p>
+          <img
+            src="img/profile.jpg"
+            class="w3-round w3-margin-bottom"
+            alt="Random Name"
+            style="width: 60%"
+          />
+          <p style="color: black">
+            <a href="https://www.espe.edu.ec/">Mail</a>
+          </p>
+        </div>
+        <div class="w3-third">
+          <p>Name</p>
+          <img
+            src="img/profile.jpg"
+            class="w3-round"
+            alt="Random Name"
+            style="width: 60%"
+          />
+          <p style="color: black">
+            <a href="https://www.espe.edu.ec/">Mail</a>
+          </p>
+        </div>
+      </div>
+      <div class="w3-row w3-padding-32">
+        <h2 class="w3-wide w3-center">ESTUDIANTES</h2>
+        <div class="w3-third">
+          <p>Name</p>
+          <img
+            src="img/profile.jpg",
+            class="w3-round w3-margin-bottom",
+            alt="Random Name",
+            style="width: 60%",
+           
+          />
+          <p style="color: black">
+            <a href="https://www.espe.edu.ec/">Mail</a>
+          </p>
+        </div>
+        <div class="w3-third">
+          <p>Name</p>
+          <img
+            src="img/profile.jpg"
+            class="w3-round w3-margin-bottom"
+            alt="Random Name"
+            style="width: 60%"
+          />
+          <p style="color: black">
+            <a href="https://www.espe.edu.ec/">Mail</a>
+          </p>
+        </div>
+        <div class="w3-third">
+          <p>Name</p>
+          <img
+            src="img/profile.jpg"
+            class="w3-round"
+            alt="Random Name"
+            style="width: 60%"
+          />
+          <p style="color: black">
+            <a href="https://www.espe.edu.ec/">Mail</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- PROYECTOS -->
+    <div style="height: 800px;" class="w3-black w3-black" id="proyectos" >
+        <div
+          class="w3-container w3-content w3-padding-64">
+          <h2 class="w3-wide w3-center">PROYECTOS</h2>
+          <p class="w3-opacity w3-center">
+            <i>Innovacion para la excelencia!</i>
+          </p>
+          <br />
+
+          <ul class="w3-ul w3-border w3-white w3-text-grey">
+            <li class="w3-padding">
+              Proyecto de aguas residuales
+              <span class="w3-tag w3-red w3-margin-left">En curso</span>
+            </li>
+            <li class="w3-padding">
+              Proyecto de investigacion para enfermedades visuales <span class="w3-tag w3-red w3-margin-left">En curso</span>
+            </li>
+            <li class="w3-padding">
+              Proyecto de crecimiento poblacional <span class="w3-tag w3-right w3-margin-right">Evaluacion</span>
+            </li>
+            <li class="w3-padding">
+            A <span class="w3-tag w3-right w3-margin-right">Evaluacion</span>
+            </li>
+            <li class="w3-padding">
+            A<span class="w3-tag w3-right w3-margin-right">Evaluacion</span>
+            </li>
+            <li class="w3-padding">
+            A <span class="w3-tag w3-right w3-margin-right">Evaluacion</span>
+            </li>
+            <li class="w3-padding">
+            A <span class="w3-tag w3-right w3-margin-right">Evaluacion</span>
+            </li>
+
+          </ul>
+        </div>
+    </div>
+    <!-- Contacto -->
+    <div class="w3-white">
+        <div
+          class="w3-container w3-content w3-padding-64"
+         
+          id="contacto"
+        >
+          <h2 class="w3-wide w3-center">CONTACTO</h2>
+
+          <div class="w3-row w3-padding-16">
+            <div class="w3-large w3-margin-bottom">
+              <i class="fa fa-map-marker" style="width: 30px"></i> CENTRO DE INVESTIGACIONES CIENTÍFICAS. BLOQUE CEINCI 
+              <br />Sangolqui,
+              EC<br />
+              <i class="fa fa-phone" style="width: 30px"></i> Phone: +593
+              (02) 3989-492<br />
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    <!-- IMAGENES CARROUSEL -->
+    <div class=" w3-black" >
+        <!-- Automatic Slideshow Images -->
+        <div class="mySlides w3-display-container w3-center">
+          <img src="img/geo carrousel.jpg" style="width:100%; height: 500px;" />
+          
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+          <img src="img/geo carrousel2.jpg" style="width:100%; height: 500px;" />
+          
+        </div>
+    </div>
+   
+    <footer
+    class="w3-container w3-padding-64 w3-center  w3-green w3-xlarge">
+        <i class="fa fa-facebook-official w3-hover-opacity" onclick></i>
+        <i class="fa fa-instagram w3-hover-opacity " ></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+    </footer>
+    <script>
+        //cambio de imagenes carrousel
+        var myIndex = 0;
+        carousel();
+    
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+            myIndex = 1;
+        }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 4000);
+        }
+    
+        // minibotton para pagina pequeña (responsive page)
+        function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+        }
+    </script>
+</body>
+
+
+  
+</html>
