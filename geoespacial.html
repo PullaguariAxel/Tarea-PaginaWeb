@@ -44,7 +44,7 @@
 
         <div class="w3-dropdown-hover w3-hide-small">
           <button class="w3-padding-large w3-button" title="More">
-            <a href="#participantes" style="text-decoration:none ;"> PARTICIPANTES </a><i class="fa fa-caret-down"></i>
+            <a href="#participantes" style="text-decoration:none ;"> EQUIPO DE TRABAJO </a><i class="fa fa-caret-down"></i>
           </button>
           <div class="w3-dropdown-content w3-black w3-bar-block w3-card-4">
             <a href="#participantes" class="w3-bar-item w3-button"
@@ -91,7 +91,7 @@
         href="geoespacial.html"
         class="w3-bar-item w3-button w3-padding-large"
         onclick="myFunction()"
-        >CENTROS DE INVESTIGACION</a
+        >EQUIPO DE TRABAJO</a
       >
       <a
         href="#proyectos"
@@ -108,14 +108,16 @@
     </div>
     
     <!-- INFO -->
-    <p><img src="img/geo carrousel3.jpg" style="width:1720px; max-height: 250px;"/></p>
+    <div class="w3-display-container w3-center">
+    <p><img src="img/geo carrousel3.jpg" class="w3-round w3-margin-bottom " style="width:100%; height: 270px;padding-top: 24px;"/></p>
+    </div>
     <div
       class="w3-container w3-content w3-center w3-padding-64 w3-bar-block"
       style="max-width: 800px;"
       id="info"
     >
-      <h2 class="w3-wide">INFORMACION</h2>
-      <p class="w3-opacity"><i>BIENVENIDO</i></p>
+    
+      <h2 class="w3-wide w3-opacity"><i>BIENVENIDO</i></h2>
       <p class="w3-justify">
         Bienvenidos al sitio web oficial del Centro de Investigación Geoespacial de la 
         Universidad de las Fuerzas Armadas – ESPE y de la Revista Científica Geoespacial.
@@ -141,135 +143,161 @@
 
 <!--Participantes-->
     <div
-      class="w3-container w3-content w3-center w3-padding-64 w3-green w3-padding  "
+      class="w3-container w3-content w3-center w3-padding-32 w3-green w3-padding  "
       style="max-width: 100%;  "
       id="participantes"
     >
-      <div class="w3-row w3-padding-32">
-        <h2 class="w3-wide w3-center">INVESTIGADORES</h2>
+      <div class="w3-row w3-padding-16">
+        <h1   class="w3-wide w3-center">EQUIPO DE TRABAJO</h1>
+        <h2 class="w3-wide w3-center w3-opacity"style="color: black;" >INVESTIGADORES</h2>
         <div class="w3-third">
           <p>Name</p>
           <img
             src="img/profile.jpg",
-            class="w3-round w3-margin-bottom",
+            class="w3-round w3-margin-bottom w3-button",
             alt="Random Name",
             style="width: 60%",
+            onclick="document.getElementById('perfil').style.display='block'"
            
           />
-          <p style="color: black">
-            <a href="https://www.espe.edu.ec/">Mail</a>
-          </p>
+          
         </div>
         <div class="w3-third">
           <p>Name</p>
           <img
             src="img/profile.jpg"
-            class="w3-round w3-margin-bottom"
+            class="w3-round w3-margin-bottom w3-button"
             alt="Random Name"
             style="width: 60%"
+            onclick="document.getElementById('perfil').style.display='block'"
           />
-          <p style="color: black">
-            <a href="https://www.espe.edu.ec/">Mail</a>
-          </p>
         </div>
         <div class="w3-third">
           <p>Name</p>
           <img
             src="img/profile.jpg"
-            class="w3-round"
+            class="w3-round w3-margin-bottom w3-button"
             alt="Random Name"
             style="width: 60%"
+            onclick="document.getElementById('perfil').style.display='block'"
           />
-          <p style="color: black">
-            <a href="https://www.espe.edu.ec/">Mail</a>
-          </p>
+          
         </div>
       </div>
-      <div class="w3-row w3-padding-32">
-        <h2 class="w3-wide w3-center">COLABORADORES</h2>
+      <div class="w3-row w3-padding-16">
+        <h2 class="w3-wide w3-center w3-opacity " style="color: black;">COLABORADORES</h2>
         <div class="w3-third">
           <p>Name</p>
+          
           <img
             src="img/profile.jpg",
-            class="w3-round w3-margin-bottom",
+            class="w3-round w3-margin-bottom w3-button",
             alt="Random Name",
             style="width: 60%",
+            onclick="document.getElementById('perfil').style.display='block'"
            
           />
-          <p style="color: black">
-            <a href="https://www.espe.edu.ec/">Mail</a>
-          </p>
+         
+          
+        </div>
+        <div class="w3-third">
+          <p>Name</p>
+          
+          <img
+            src="img/profile.jpg"
+            class="w3-round w3-margin-bottom w3-button"
+            alt="Random Name"
+            style="width: 60%"
+            onclick="document.getElementById('perfil').style.display='block'"
+          />
+          
+          
         </div>
         <div class="w3-third">
           <p>Name</p>
           <img
             src="img/profile.jpg"
-            class="w3-round w3-margin-bottom"
+            class="w3-round w3-margin-bottom w3-button"
             alt="Random Name"
             style="width: 60%"
+            onclick="document.getElementById('perfil').style.display='block'"
           />
-          <p style="color: black">
-            <a href="https://www.espe.edu.ec/">Mail</a>
-          </p>
-        </div>
-        <div class="w3-third">
-          <p>Name</p>
-          <img
-            src="img/profile.jpg"
-            class="w3-round"
-            alt="Random Name"
-            style="width: 60%"
-          />
-          <p style="color: black">
-            <a href="https://www.espe.edu.ec/">Mail</a>
-          </p>
+          
         </div>
       </div>
-      <div class="w3-row w3-padding-32">
-        <h2 class="w3-wide w3-center">ESTUDIANTES</h2>
+
+      <div class="w3-row w3-padding-16">
+        <h2 class="w3-wide w3-center w3-opacity" style="color: black;">ESTUDIANTES</h2>
         <div class="w3-third">
           <p>Name</p>
           <img
             src="img/profile.jpg",
-            class="w3-round w3-margin-bottom",
+            class="w3-round w3-margin-bottom w3-button",
             alt="Random Name",
             style="width: 60%",
+            onclick="document.getElementById('perfil').style.display='block'"
            
           />
-          <p style="color: black">
-            <a href="https://www.espe.edu.ec/">Mail</a>
-          </p>
+          
         </div>
         <div class="w3-third">
           <p>Name</p>
           <img
             src="img/profile.jpg"
-            class="w3-round w3-margin-bottom"
+            class="w3-round w3-margin-bottom w3-button"
             alt="Random Name"
             style="width: 60%"
+            onclick="document.getElementById('perfil').style.display='block'"
           />
-          <p style="color: black">
-            <a href="https://www.espe.edu.ec/">Mail</a>
-          </p>
+          
         </div>
         <div class="w3-third">
           <p>Name</p>
           <img
             src="img/profile.jpg"
-            class="w3-round"
+            class="w3-round w3-margin-bottom w3-button"
             alt="Random Name"
             style="width: 60%"
+            onclick="document.getElementById('perfil').style.display='block'"
           />
-          <p style="color: black">
-            <a href="https://www.espe.edu.ec/">Mail</a>
-          </p>
+          
+        </div>
+      </div>
+      <!--Perfil popup-->
+      <div id="perfil" class="w3-modal  w3-animate-opacity" style="display: none; border-style:groove;">
+        <div class="w3-modal-content w3-green w3-border" style="padding:8px ">
+          <div class="w3-container w3-white">
+            <i onclick="document.getElementById('perfil').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+            <h2 class="w3-wide">NOMBRE</h2>
+            <div class="w3-half">
+              
+              <img
+                src="img/profile.jpg"
+                class="w3-round w3-margin-bottom"
+                alt="Random Name"
+                style="width: 50%"
+              />    
+                
+            </div>  
+            <div class="w3-content w3-justify">
+              <p><i class="fa fa-user-circle-o " style="width: 30px"></i>
+              Cargo: ********************
+            </p>
+            <p><i class="fa fa-address-book" style="width: 30px"></i>
+              Telefono: ****************
+            </p>
+            <p><i class="fa fa-envelope" style="width: 30px"></i>
+              Email: ********************
+            </p>
+            </div>       
+          </div>
         </div>
       </div>
     </div>
 
 
     <!-- PROYECTOS -->
-    <div style="height: 800px;" class="w3-black w3-black" id="proyectos" >
+    <div class="w3-container w3-white" id="proyectos" >
         <div
           class="w3-container w3-content w3-padding-64">
           <h2 class="w3-wide w3-center">PROYECTOS</h2>
@@ -278,7 +306,7 @@
           </p>
           <br />
 
-          <ul class="w3-ul w3-border w3-white w3-text-grey">
+          <ul class="=w3-ul w3-border w3-white w3-text-grey">
             <li class="w3-padding">
               Proyecto de aguas residuales
               <span class="w3-tag w3-red w3-margin-left">En curso</span>
@@ -289,7 +317,7 @@
             <li class="w3-padding">
               Proyecto de crecimiento poblacional <span class="w3-tag w3-right w3-margin-right">Evaluacion</span>
             </li>
-            <li class="w3-padding">
+            <li class="w3-padding w3-content">
             A <span class="w3-tag w3-right w3-margin-right">Evaluacion</span>
             </li>
             <li class="w3-padding">
@@ -306,15 +334,15 @@
         </div>
     </div>
     <!-- Contacto -->
-    <div class="w3-white">
+    <div class="w3-black w3-row">
         <div
-          class="w3-container w3-content w3-padding-64"
+          class="w3-container w3-content w3-padding-64 w3-half"
          
           id="contacto"
         >
           <h2 class="w3-wide w3-center">CONTACTO</h2>
 
-          <div class="w3-row w3-padding-16">
+          <div class="w3-row w3-padding-32">
             <div class="w3-large w3-margin-bottom">
               <i class="fa fa-map-marker" style="width: 30px"></i> CENTRO DE INVESTIGACIONES CIENTÍFICAS. BLOQUE CEINCI 
               <br />Sangolqui,
@@ -326,28 +354,30 @@
             
           </div>
         </div>
+        
+        <div class="w3-content w3-black w3-half" style="max-width:100%;">
+          <!-- Automatic Slideshow Images -->
+          <div class="mySlides w3-display-container w3-center">
+            <img src="img/geo carrousel.jpg"style="width:100%"/>
+            
+          </div>
+          <div class="mySlides w3-display-container w3-center">
+            <img src="img/geo carrousel2.jpg" style="width:100%"/>
+            
+          </div>
       </div>
-    <!-- IMAGENES CARROUSEL -->
-    <div class=" w3-black" >
-        <!-- Automatic Slideshow Images -->
-        <div class="mySlides w3-display-container w3-center">
-          <img src="img/geo carrousel.jpg" style="width:100%; height: 500px;" />
-          
-        </div>
-        <div class="mySlides w3-display-container w3-center">
-          <img src="img/geo carrousel2.jpg" style="width:100%; height: 500px;" />
-          
-        </div>
     </div>
+    <!-- IMAGENES CARROUSEL -->
+    
    
     <footer
-    class="w3-container w3-padding-64 w3-center  w3-green w3-xlarge">
-        <i class="fa fa-facebook-official w3-hover-opacity" onclick></i>
-        <i class="fa fa-instagram w3-hover-opacity " ></i>
-        <i class="fa fa-snapchat w3-hover-opacity"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-        <i class="fa fa-twitter w3-hover-opacity"></i>
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
+    class="w3-container w3-padding-16 w3-center  w3-green w3-xlarge">
+        <a><i class="fa fa-facebook-official w3-hover-opacity" onclick></i></a>
+        <a><i class="fa fa-instagram w3-hover-opacity " ></i></a>
+        <a><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+        <a><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+        <a><i class="fa fa-twitter w3-hover-opacity"></i></a>
+        <a><i class="fa fa-linkedin w3-hover-opacity"></i></a>
 
     </footer>
     <script>
